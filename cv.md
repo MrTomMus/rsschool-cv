@@ -1,10 +1,10 @@
 # Sergey Bukin
 
-## Frontend Developer (React, Redux, TypeScript)
+### Frontend Developer (React, Redux, TypeScript)
 
-=================================================
+- 
 
-## Contact Information: 
+### Contact Information: 
 
 * **Phone:**
 * **Email:**
@@ -13,5 +13,19 @@
 * [LinkedIn](https://www.linkedin.com/mwlite/in/sergey-bukin-006528220)
 * [Github](https://github.com/MrTomMus)
 
-=================================================
+-  
+
+### About Me
+
+- 
+
+### Skills
+
+- 
+
+### Code Example
+
+### Courses
+
+### Languages:
 
