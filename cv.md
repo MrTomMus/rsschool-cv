@@ -50,9 +50,9 @@ function removeExclamationMarks(s) {
 ### Courses
 
 * RS Schools Course (in progress)
-* HTML and CSS Manual on http://htmlbook.ru (in progress)
-* JavaScript Manual on learnjavascript.ru (in progress)
-* React Manual on https://ru.reactjs.org/docs/getting-started.html (in progress)
+* HTML and CSS Manual on [htmlbook.ru](http://htmlbook.ru) (in progress)
+* JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
+* React Manual on [ru.reactjs.org](https://ru.reactjs.org/docs/getting-started.html) (in progress)
 
 ### Languages:
 
