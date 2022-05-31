@@ -46,6 +46,7 @@ function removeExclamationMarks(s) {
 }
 ```
 
+-------------------------------------------------------------------------------
 
 ### Courses
 
@@ -53,6 +54,8 @@ function removeExclamationMarks(s) {
 * HTML and CSS Manual on [htmlbook.ru](http://htmlbook.ru) (in progress)
 * JavaScript Manual on [learn.javascript.ru](https://learn.javascript.ru/) (in progress)
 * React Manual on [ru.reactjs.org](https://ru.reactjs.org/docs/getting-started.html) (in progress)
+
+-------------------------------------------------------------------------------
 
 ### Languages:
 
