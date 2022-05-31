@@ -18,7 +18,7 @@
 ### Personal information
 
 I am a front-end developer with experience building SPAs using React, Redux, Typescript, Javascript, HTML/CSS. 
-I consider the main goal to improve my knowledge and develop in order to become a complete Fullstack developer. I also constantly improve my English and spend my free time solving problems on Codwars
+I consider the main goal to improve my knowledge and develop in order to become a complete Fullstack developer. I also constantly improve my English and spend my free time solving problems on Codwars.
 
 -------------------------------------------------------------------------------
 
