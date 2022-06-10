@@ -27,5 +27,20 @@ body{
 
 li{
     list-style: none;
-    
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-me__img-container img{
+    border-radius: 50%;
 }
