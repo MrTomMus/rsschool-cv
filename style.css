@@ -82,14 +82,57 @@ h2{
     padding: 0;
 }
 
-.codeStyle{
-    display: flex;
-    justify-content: center;
-
-}
 
 .courses-block{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.courses-block__list{
+    display: flex;
+}
+
+.courses-block__list ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.courses-block__list ul li a{
+    color: #F8F0E4; 
+}
+
+.languages-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languages-block__list{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.page-footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+}
+
+.page-footer__contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
 }
