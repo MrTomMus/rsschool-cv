@@ -25,6 +25,10 @@ body{
     color: #F8F0E4;
 }
 
+.site-navigation__link a:hover{
+    text-decoration: underline;
+}
+
 li{
     list-style: none;
 }
@@ -135,4 +139,8 @@ h2{
     align-items: center;
     justify-content: space-between;
     gap: 100px;
+}
+
+.page-footer__contact-list li a{
+    color:#F8F0E4;
 }
