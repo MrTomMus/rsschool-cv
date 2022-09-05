@@ -10,138 +10,197 @@
 <body>
     <div class="wrapper">
         <header class='page-header'>
-            <div class="page-header__inner">
-                <nav>
-                    <ul class='site-navigation__link'>
-                        <li>
-                            <a href="#skills">Skills</a>
-                        </li>
-                    </ul>
-                    <ul class='site-navigation__link'>
-                        <li>
-                            <a href="">Projects</a>
-                        </li>
-                    </ul>
-                    <ul class='site-navigation__link'>
-                        <li>
-                            <a href="#languages">Languages</a>
-                        </li>
-                    </ul>
-                    <ul class='site-navigation__link'>
-                        <li>
-                            <a href="#codeStyle">Code Style</a>
-                        </li>
-                    </ul>
-                    <ul class='site-navigation__link'>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+            <div class="container">
+                <div class="page-header__container">
+                    <nav class="page-header__inner">
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#skills">Skills</a>
+                            </li>
+                        </ul>
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#codeStyle">Code Style</a>
+                            </li>
+                        </ul>
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#courses">Courses</a>
+                            </li>
+                        </ul>
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#projects">Projects</a>
+                            </li>
+                        </ul>
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#languages">Languages</a>
+                            </li>
+                        </ul>
+                        <ul class='site-navigation__link'>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </header>
         <main>
             <div class="main-wrapper">
-                <section class='about-me container'>
-                    <div class="about-me__img-container">
-                        <img src='assets/photo.jpg' alt='Personal photo' width="250">
-                    </div>
-                    <h1 class='about-me__name'>Hello, I'm Sergey</h1>
-                    <h2 class='about-me__job'>Front-End Developer</h2>
-                    <div class="about-me__buttons">
-                        <a href="mailto:tommusshow@gmail.com">
-                            <span>Email me</span>
-                        </a>
-                        <a href="">
-                            <span>Download CV</span>
-                        </a>
-                    </div>
-                    <div class="about-me__description">
-                        <p>I am a front-end developer with experience building SPAs using React, Redux, Typescript, Javascript, HTML/CSS.</p>
-                        <p>I consider the main goal to improve my knowledge and develop in order to become a complete Fullstack developer.</p>
-                        <p>In my free time, I improve my English and spend time solving problems on Codwars.</p>
-                    </div>
-                </section>
-                <section class='skills-block'>
-                    <a name='skills'><h2>Hard skills</h2></a>
-                    <div class='skills-block__list'>
-                        <ul>
-                            <li>- JavaScript</li>
-                            <li>- HTML</li>
-                            <li>- CSS</li>
-                            <li>- React</li>
-                            <li>- Redux</li>
-                            <li>- Git/GitHub</li>
-                            <li>- Adobe Photoshop/Figma</li>
-                        </ul>
-                    </div>
-                   
-                </section>
-                <section class='code-examples__block'>
-                    <div class='code-examples'>
-                        <a name='codeStyle'><h2>Code examples</h2></a>
-                    </div>
-                    <div class='codeStyle'>
-                        <pre>
-                            <code>
-function removeExclamationMarks(s) {
-
-    let str = s.split('!').join('');
-                                  
-    return str;
-}
-                            </code>
-                        </pre>
-                    </div>
-                    
-                </section>
-                <section class='courses-block'>
-                    <div class="courses-block__name">
-                        <h2>Courses</h2>
-                    </div>
-                    <div class='courses-block__list'>
-                        <div>
-                            <ul>
-                                <li>RS Schools Course (in progress)</li>
-                                <li>HTML and CSS Manual on 
-                                    <span>
-                                        <a href="http://htmlbook.ru">htmlbook.ru</a>
-                                    </span>
-                                    (in progress)
-                                </li>
-                            </ul>
+                <div class="container">
+                    <section class='about-me container'>
+                        <div class="about-me-img">
+                            <div class="about-me__img-container">
+                                <img src='assets/photo.jpg' alt='Personal photo' width="250">
+                            </div>
+                            <div class="about-me-text">
+                                <h1 class='about-me__name'>Hello, I'm Sergey</h1>
+                                <h2 class='about-me__job'>Front-End Developer</h2>
+                            </div>
                         </div>
-                        <div>
-                            <ul>
-                                <li>
-                                    <span>JavaScript Manual on
-                                        <a href="https://learn.javascript.ru/">learn.javascript.ru</a>
-                                    </span>
-                                    (in progress)
-                                </li>
-                                <li>React Manual on 
-                                    <span>
-                                        <a href="https://ru.reactjs.org/docs/getting-started.html">ru.reactjs.org</a>
-                                    </span>
-                                    (in progress)
-                                </li>
-                            </ul>
-                        </div>  
-                    </div>
-                </section>
-                <section class='languages-block'>
-                    <div class='languages-block__languages'>
-                        <a name='languages'><h2>Languages</h2></a>
-                    </div>
-                    <div class="languages-block__list">
-                        <div>Russian(Native)</div>
-                        <div>English(A2) (in progress)</div>
-                    </div>
-                </section>
+                        <div class="about-me__buttons">
+                            <a href="mailto:tommusshow@gmail.com">
+                                <span>Email me</span>
+                            </a>
+                            <a href="">
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="about-me__description">
+                            <p>I am a front-end developer with experience building SPAs using React, Redux, Typescript, Javascript, HTML/CSS.</p>
+                            <p>I consider the main goal to improve my knowledge and develop in order to become a complete Fullstack developer.</p>
+                            <p>In my free time, I improve my English and spend time solving problems on Codwars.</p>
+                        </div>
+                    </section>
+                    <section class='skills-block'>
+                        <a name='skills'><h2>Hard skills</h2></a>
+                        <div class="skill-block-container">
+                            <div class='skills-block__list'>
+                                <ul>
+                                    <li>- JavaScript</li>
+                                    <li>- HTML</li>
+                                    <li>- CSS</li>
+                                    <li>- React</li>
+                                    <li>- Redux</li>
+                                </ul>
+                            </div>
+                            <div class='skills-block__list'>
+                                <ul>
+                                    <li>- TypeScript</li>
+                                    <li>- Axios/Rest Api</li>
+                                    <li>- Git/GitHub</li>
+                                    <li>- Adobe Photoshop/Figma</li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section class='code-examples__block'>
+                        <div class='code-examples'>
+                            <a name='codeStyle'><h2>Code examples</h2></a>
+                        </div>
+                        <div class='codeStyle'>
+                            <pre>
+                                <code>
+    function removeExclamationMarks(s) {
+    
+        let str = s.split('!').join('');
+                                      
+        return str;
+    }
+                                </code>
+                            </pre>
+                        </div>
+                        
+                    </section>
+                    <section class="codewars-block">
+                        <div class="codewars-text">
+                            <h2>Codewars</h2>
+                        </div>
+                        <div class="codewars-info">
+                            <div>
+                                <h3>Name: <a class="codewars-name" href="https://www.codewars.com/users/MrTomMus"><span class="codewars-name"></span></a></h3>
+                            </div>
+                            <div>
+                                <h3>Rank: <span class="codewars-rank"></span></h3>
+                            </div>
+                            <div>
+                                <h3>Honor: <span class="codewars-honor"></span></h3>
+                            </div>
+                            <div>
+                                <h3>Completed tasks: <span class="codewars-completed-tasks"></span></h3>
+                            </div>
+                        </div>
+                    </section>
+                    <section class='courses-block'>
+                        <div class="courses-block__name">
+                            <a name="courses"><h2>Courses</h2></a>
+                        </div>
+                        <div class='courses-block__list'>
+                            <div>
+                                <ul>
+                                    <li>RS Schools Course (in progress)</li>
+                                    <li>HTML and CSS Manual on 
+                                        <span>
+                                            <a href="http://htmlbook.ru">htmlbook.ru</a>
+                                        </span>
+                                        (in progress)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>
+                                        <span>JavaScript Manual on
+                                            <a href="https://learn.javascript.ru/">learn.javascript.ru</a>
+                                        </span>
+                                        (in progress)
+                                    </li>
+                                    <li>React Manual on 
+                                        <span>
+                                            <a href="https://ru.reactjs.org/docs/getting-started.html">ru.reactjs.org</a>
+                                        </span>
+                                        (in progress)
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </section>
+                    <section class="project-block">
+                        <div class="project">
+                            <a name="projects"><h2>Projects</h2></a>
+                            <div class="project-block-list">
+                                <div class="project-list">
+                                    <a href="https://rolling-scopes-school.github.io/mrtommus-JSFEPRESCHOOL2022Q2/travel/">
+                                        <img class="project-img" src="./assets/travel.png" alt="travel">
+                                    </a>
+                                </div>
+                                <div class="project-list">
+                                    <a href="https://mrtommus.github.io/momentum/">
+                                        <img class="project-img" src="./assets/momentum.png" alt="momentum">
+                                    </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+                    <section class='languages-block'>
+                        <div class='languages-block__languages'>
+                            <a name='languages'><h2>Languages</h2></a>
+                        </div>
+                        <div class="languages-block__list">
+                            <div>Russian(Native)</div>
+                            <div>English(A2) (in progress)</div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </main>
         <footer class='page-footer'>
-            <a name='contact'></a>
+            <div class="container">
+                <a name='contact'></a>
             <div class="page-footer__inner">
                 <div><p>© 2022 by Sergey Bukin</p></div>
                 <ul class='page-footer__contact-list'>
@@ -158,7 +217,10 @@ function removeExclamationMarks(s) {
                     </li>
                 </ul>
             </div>
+            </div>  
         </footer>
     </div>
+
+    <script src="./codewarApi.js"></script>
 </body>
 </html>

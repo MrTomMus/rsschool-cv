@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth; 
+}
+
 body{
     background: #1D262D;
     color: #F8F0E4;
@@ -5,14 +9,14 @@ body{
     font-family: "Ubuntu", sans-serif
 }
 
-.page-header{
-    padding: 20px;
-    
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .page-header__inner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -22,7 +26,7 @@ body{
 
 .site-navigation__link a{
     text-decoration: none;
-    color: #F8F0E4;
+    color: #F8F0E4;   
 }
 
 .site-navigation__link a:hover{
@@ -49,6 +53,14 @@ li{
     border-radius: 50%;
 }
 
+.about-me-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
 h2{
     font-family: "Poppins", sans-serif;
     margin: 10px;
@@ -56,9 +68,10 @@ h2{
 }
 
 .about-me__buttons{
-    margin-top: 20px;
+    width: 50%;
+    margin-top: 30px;
     display: flex;
-    gap: 32px;
+    justify-content: space-around;
 }
 
 .about-me__buttons a{
@@ -66,6 +79,15 @@ h2{
     border-radius: 5px;
     text-decoration: none;
     color: #F8F0E4;
+    transition: 1s;
+}
+
+.about-me__buttons a:hover{
+    border: solid 1px #F8F0E4;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1D262D;
+    background: #F8F0E4;
     
 }
 
@@ -75,8 +97,14 @@ h2{
 
 .skills-block{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+}
+
+.skill-block-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .code-examples__block{
@@ -86,15 +114,39 @@ h2{
     padding: 0;
 }
 
+.codewars-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.codewars-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.codewars-name{
+    text-decoration: none;
+    color: #F8F0E4;
+}
+
+.codewars-name:hover{
+    text-decoration: underline;
+    
+}
+
 
 .courses-block{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .courses-block__list{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .courses-block__list ul li{
@@ -105,6 +157,31 @@ h2{
 
 .courses-block__list ul li a{
     color: #F8F0E4; 
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-block-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.project-img{
+    width: 500px;
+    height: 312.5px;
+    box-shadow: 0 0 5px #F8F0E4;
+    transition: 1s;
+}
+
+.project-img:hover{
+    transform: scale(1.1);
+    
 }
 
 .languages-block{
@@ -131,7 +208,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 500px;
+    
 }
 
 .page-footer__contact-list{
