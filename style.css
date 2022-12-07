@@ -9,3 +9,216 @@ body{
     font-family: "Ubuntu", sans-serif
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-navigation__link{
+    display: inline-block;
+}
+
+.site-navigation__link a{
+    text-decoration: none;
+    color: #F8F0E4;   
+}
+
+.site-navigation__link a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.about-me__img-container img{
+    border-radius: 50%;
+}
+
+.about-me-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+.about-me__buttons{
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-me__buttons a{
+    border: solid 1px #F8F0E4;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #F8F0E4;
+    transition: 1s;
+}
+
+.about-me__buttons a:hover{
+    border: solid 1px #F8F0E4;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1D262D;
+    background: #F8F0E4;
+    
+}
+
+.about-me__buttons a span{
+    margin: 20px;
+}
+
+.skills-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-block-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.code-examples__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.codewars-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.codewars-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.codewars-name{
+    text-decoration: none;
+    color: #F8F0E4;
+}
+
+.codewars-name:hover{
+    text-decoration: underline;
+    
+}
+
+
+.courses-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-block__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-block__list ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.courses-block__list ul li a{
+    color: #F8F0E4; 
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-block-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.project-img{
+    width: 500px;
+    height: 312.5px;
+    box-shadow: 0 0 5px #F8F0E4;
+    transition: 1s;
+}
+
+.project-img:hover{
+    transform: scale(1.1);
+    
+}
+
+.languages-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languages-block__list{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}   
+
+.page-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.page-footer__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.page-footer__contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.page-footer__contact-list li a{
+    color:#F8F0E4;
+}
